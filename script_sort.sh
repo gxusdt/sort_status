@@ -2,9 +2,6 @@ URL="https://raw.githubusercontent.com/GreatMedivack/files/master/list.out"
 date=$(date +%d\%m\%y)
 server="${1:-DefaultServer}"
 list=".//list.out"
-
-mkdir -p ./
-
 #1
 wget -O "$list" "$URL"
 #2
